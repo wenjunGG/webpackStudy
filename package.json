@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack --mode production",
-    "dev": "webpack  --mode development& webpack-dev-server --open  --mode development",
+    "dev": "webpack --mode development&webpack-dev-server --open",
     "start": "webpack-dev-server --open"
   },
   "author": "",
@@ -16,6 +16,7 @@
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
+    "Babel": "0.0.1",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
@@ -29,6 +30,7 @@
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/polyfill": "^7.8.3",
+    "cross-env": "^6.0.3",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"

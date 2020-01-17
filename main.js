@@ -1,7 +1,8 @@
-const React=require('react');
-const ReactDOM=require('react-dom');
+// 通过 CommonJS 规范导入 css 模块
+require('./main.css');
+// 通过 CommonJS 规范导入 show 函数
+const show = require('./show.js');
+// 执行 show 函数
+show('22');
 
-ReactDOM.render(
-    <h1>hello world</h1>,
-    document.querySelector('#app')
-);
+///
